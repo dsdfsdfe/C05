@@ -1,8 +1,8 @@
 int		ft_recursive_factorial(int nb)
 {
-	if (nb == 2)
-		return (2);
-	else if (nb == 1 || nb == 0)
+	if (nb == 1 || nb == 2)
+		return (nb);
+	else if (nb == 0)
 		return (1);
 	else if (nb < 0)
 		return (0);
